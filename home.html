@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的个人阅读室</title>
+    <style>
+        body { font-family: "Microsoft YaHei", sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background: #f0f2f5; gap: 30px; }
+        .card { width: 200px; height: 120px; background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: center; align-items: center; text-decoration: none; color: #333; transition: transform 0.2s; cursor: pointer; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
+        .icon { font-size: 40px; margin-bottom: 10px; }
+        .title { font-weight: bold; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="card">
+        <div class="icon">📖</div>
+        <div class="title">EPUB 阅读器</div>
+    </a>
+    <a href="pdfjs/web/viewer.html" class="card">
+        <div class="icon">📄</div>
+        <div class="title">PDF 阅读器</div>
+    </a>
+</body>
+</html>
